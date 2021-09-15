@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bar chart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+  </head>
+  <style>
+  body {
+            font-family: 'Itim', cursive;
+            font-size: 20px;
+        }
+    table {
+      border-collapse: collapse;
+    }
+    td,th {
+      width: 150px;
+      text-align: center;
+      border: 1px solid;
+    }
+    .column {
+      float: left;
+      width: 40%;
+    }
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .depp {
+      width: 180px;
+      background-color: red;
+      text-align: center;
+    }
+    .washington {
+      width: 270px;
+      background-color: blue;
+      text-align: center;
+    }
+    .pitt {
+      width: 150px;
+      background-color: green;
+      /*ข้อความตรงกลาง*/
+      text-align: center;
+    }
+    .crowe {
+      width: 240px;
+      background-color: gray;
+      text-align: center;
+    }
+    .cruise {
+      width: 225px;
+      background-color: yellow;
+      text-align: center;
+    }
+  </style>
+  <body>
+      <div class="row">
+        <div class="column">
+          <table>
+            <tr>
+              <th>ลำดับ</th>
+              <th>ชื่อ</th>
+              <th>คะแนน</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>J. Depp</td>
+              <td>60</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>D. Washington</td>
+              <td>90</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>B. Pitt</td>
+              <td>50</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>R. Crowe</td>
+              <td>80</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>T. Cruise</td>
+              <td>75</td>
+            </tr>
+          </table>
+        </div>
+        <div class="column">
+          <div class="depp">
+            <p>J. Depp</p>
+          </div>
+          <div class="washington">
+            <p>D. Washington</p>
+          </div>
+          <div class="pitt">
+            <p>B. Pitt</p>
+          </div>
+          <div class="crowe">
+            <p>R. Crowe</p>
+          </div>
+          <div class="cruise">
+            <p>T. Cruise</p>
+          </div>
+        </div>
+      </div>
+    </div>
+</html>
